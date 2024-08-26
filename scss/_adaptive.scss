@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
