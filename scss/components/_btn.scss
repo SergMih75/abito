@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
 
     border: none;
     border-radius: 5px;
@@ -19,11 +20,16 @@
     font-size: 14px;
     // line-height: 16px;
 
-    &-enter {
+    &-enter,
+    &-search {
         background-color: initial;        
     }
 
     &-advertisement {
+        color: $globalFontColorLight;
+    }
+
+    &__text-search {
         color: $globalFontColorLight;
     }
 }
