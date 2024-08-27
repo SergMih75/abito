@@ -1,0 +1,33 @@
+.services {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-bottom: 44px;
+
+    &__item {
+        margin-bottom: 25px;
+
+        &--title,
+        &--description {
+            font-size: 14px;
+            line-height: 18px;
+            color: $globalFontColorDark;
+        }
+
+        &--title {
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        &--description {
+            font-weight: 400;
+        }
+    }
+}
+
+.content__description-copyright > h6,
+.content__description-copyright > a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $globalFontColorSpan;
+}

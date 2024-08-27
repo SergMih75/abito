@@ -1,0 +1,47 @@
+.content {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	gap: 30px;
+
+	&__title {
+		margin-bottom: 25px;
+
+		font-weight: 700;
+		font-size: 24px;
+		color: $globalFontColorDark;
+	}
+
+	&__main {
+		width: calc(100% - 261px);
+	}
+
+	&__description {
+		width: 261px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		&-service {
+			border-bottom: 1px solid #e5e5e5;
+		}
+
+        &-copyright {
+            display: flex;
+            flex-direction: column;
+        }
+
+		&-copyright > h6,
+		&-copyright > a {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 16px;
+			color: $globalFontColorSpan;
+		}
+
+		&-copyright > a:hover {
+			color: $globalFontColorDark;
+		}
+	}
+}
