@@ -79,7 +79,7 @@ searchBtn.addEventListener('click', () => {
 	products.innerHTML = ''
 	let filterCard = cards.filter(
 		item =>
-			item.title.includes(searchInput.value) ||
+			item.title.toLowerCase().includes(searchInput.value.toLowerCase()) ||
 			item.price.includes(searchInput.value)
 	)
 
